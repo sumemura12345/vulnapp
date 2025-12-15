@@ -29,7 +29,7 @@ jobs:
           args: "--enableExperimental" # 実験的な機能を有効にする
 
       - name: スキャンレポートのアップロード
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: dependency-check-report
           path: reports
